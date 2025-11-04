@@ -1,6 +1,12 @@
 from glob import glob
 import os
 
+'''
+Renames the BGI sequencing files to an Illumina-like format for Cell Ranger count.
+Warning: Renames all files with an fq extension in the current directory.
+Usage: python3 rename_bgi_fq.py
+'''
+
 #list all fq.gz files
 fq_l = glob("*/*.fq.gz")
 
