@@ -3,7 +3,7 @@ import shutil, os
 import sys
 
 '''
-Copy and rename all the Web Summary files from all Cell Ranger count runs in the current directory Reports folder.
+Copy and rename all the Web Summary files from all Cell Ranger count runs in the current directory's Reports folder.
 Usage: python copy_10x_web_summary.py <parent directory path>
 '''
 
